@@ -1,0 +1,131 @@
+body{
+  background-color: #FDFCF2;
+  font-family: p22-mackinac-pro, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 100%;
+margin: 0;
+}
+.parent{
+  width: 100%;
+  display: flex;
+  padding-top: 3%;
+}
+.sidebar{
+  width: 30%;
+  height: 100%;
+  border-right: solid black 1px;
+  /* background-color: red; */
+  position: fixed;
+  padding: 1%;
+}
+
+.h1{
+  font-family: p22-mackinac-pro, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 200%;
+text-align: center;
+padding-top: 20%;
+padding-left: 0;
+transition: ;
+}
+h1{
+  font-family: p22-mackinac-pro, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 200%;
+text-align: left;
+padding-left: 3%;
+}
+p{
+  font-size: 48%;
+  width: 95%;
+}
+.scroll{
+  width: 65%;
+  padding-left: 34%;
+  padding-top: 3%;
+
+}
+.vimeo{
+  width:100%;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 1%;
+}
+.spotify{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 98%;
+  height: 425%;
+  padding: 1%;
+}
+.nav_parent2{
+  position: fixed;
+  display: flex;
+  width:93%;
+  /* padding-top: 1%; */
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 5%;
+  padding-top:1%;
+  background-color: #FDFCF2;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid black 1px;
+}
+.nav_parent1{
+  position: fixed;
+  display: flex;
+  width:93%;
+  /* padding-top: 1%; */
+  padding-bottom: 1%;
+  padding-left: 2%;
+  padding-right: 5%;
+  background-color: #FDFCF2;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid black 1px;
+}
+.nav_kid{
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a>div { display: none;
+}
+
+a:hover>div {
+  position: absolute;
+  display: block;
+  opacity: 20%;
+  /* padding-left:40%;
+  padding-bottom: 20%; */
+
+ }
+
+ a:hover{
+   color: #E800FF;
+   transition: .2s;
+ }
+
+
+img{
+  width: 25%;
+  height: auto;
+}
+h1{
+  line-height: 1.5;
+}
